@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ad Size Preview — Natural Pixel Sizes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 40px;
+      color: #222;
+    }
+    h1 { margin-bottom: 30px; font-size: 22px; }
+    h2 {
+      font-size: 18px;
+      margin-top: 60px;
+      margin-bottom: 25px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+    }
+
+    /* Spacious layout (C2) */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px 60px;
+      align-items: flex-start;
+    }
+
+    .item { text-align: center; }
+    /* Show videos at their natural size — no forced dimensions, no dark background */
+    .item video {
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: transparent; /* avoid any visible “letterbox” background */
+      /* No width/height set -> uses the file’s intrinsic pixel size */
+    }
+
+    .label {
+      font-size: 12px;
+      margin-top: 6px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ad Format Preview — Natural Pixel Sizes</h1>
+
+  <!-- Botswana -->
+  <section>
+    <h2>Botswana</h2>
+    <div class="grid">
+      <div class="item"><video src="Botswana/160x600.mp4" autoplay loop muted playsinline></video><div class="label">160×600</div></div>
+      <div class="item"><video src="Botswana/300x250.mp4" autoplay loop muted playsinline></video><div class="label">300×250</div></div>
+      <div class="item"><video src="Botswana/300x600.mp4" autoplay loop muted playsinline></video><div class="label">300×600</div></div>
+      <div class="item"><video src="Botswana/728x90.mp4"  autoplay loop muted playsinline></video><div class="label">728×90</div></div>
+      <div class="item"><video src="Botswana/970x250.mp4" autoplay loop muted playsinline></video><div class="label">970×250</div></div>
+    </div>
+  </section>
+
+  <!-- India -->
+  <section>
+    <h2>India</h2>
+    <div class="grid">
+      <div class="item"><video src="India/160x600.mp4" autoplay loop muted playsinline></video><div class="label">160×600</div></div>
+      <div class="item"><video src="India/300x250.mp4" autoplay loop muted playsinline></video><div class="label">300×250</div></div>
+      <div class="item"><video src="India/300x600.mp4" autoplay loop muted playsinline></video><div class="label">300×600</div></div>
+      <div class="item"><video src="India/728x90.mp4"  autoplay loop muted playsinline></video><div class="label">728×90</div></div>
+      <div class="item"><video src="India/970x250.mp4" autoplay loop muted playsinline></video><div class="label">970×250</div></div>
+    </div>
+  </section>
+
+  <!-- Peru -->
+  <section>
+    <h2>Peru</h2>
+    <div class="grid">
+      <div class="item"><video src="Peru/160x600.mp4" autoplay loop muted playsinline></video><div class="label">160×600</div></div>
+      <div class="item"><video src="Peru/300x250.mp4" autoplay loop muted playsinline></video><div class="label">300×250</div></div>
+      <div class="item"><video src="Peru/300x600.mp4" autoplay loop muted playsinline></video><div class="label">300×600</div></div>
+      <div class="item"><video src="Peru/728x90.mp4"  autoplay loop muted playsinline></video><div class="label">728×90</div></div>
+      <div class="item"><video src="Peru/970x250.mp4" autoplay loop muted playsinline></video><div class="label">970×250</div></div>
+    </div>
+  </section>
+
+  <!-- Pure Amazon -->
+  <section>
+    <h2>Pure Amazon</h2>
+    <div class="grid">
+      <div class="item"><video src="Pure Amazon/160x600.mp4" autoplay loop muted playsinline></video><div class="label">160×600</div></div>
+      <div class="item"><video src="Pure Amazon/300x250.mp4" autoplay loop muted playsinline></video><div class="label">300×250</div></div>
+      <div class="item"><video src="Pure Amazon/300x600.mp4" autoplay loop muted playsinline></video><div class="label">300×600</div></div>
+      <div class="item"><video src="Pure Amazon/728x90.mp4"  autoplay loop muted playsinline></video><div class="label">728×90</div></div>
+      <div class="item"><video src="Pure Amazon/970x250.mp4" autoplay loop muted playsinline></video><div class="label">970×250</div></div>
+    </div>
+  </section>
+
+  <!-- Uganda -->
+  <section>
+    <h2>Uganda</h2>
+    <div class="grid">
+      <div class="item"><video src="Uganda/160x600.mp4" autoplay loop muted playsinline></video><div class="label">160×600</div></div>
+      <div class="item"><video src="Uganda/300x250.mp4" autoplay loop muted playsinline></video><div class="label">300×250</div></div>
+      <div class="item"><video src="Uganda/300x600.mp4" autoplay loop muted playsinline></video><div class="label">300×600</div></div>
+      <div class="item"><video src="Uganda/728x90.mp4"  autoplay loop muted playsinline></video><div class="label">728×90</div></div>
+      <div class="item"><video src="Uganda/970x250.mp4" autoplay loop muted playsinline></video><div class="label">970×250</div></div>
+    </div>
+  </section>
+
+</body>
+</html>
